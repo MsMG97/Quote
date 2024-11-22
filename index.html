@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>js-2 Quote</title>
+  </head>
+  <body class="bg-dark">
+    <section class="text-center m-5">
+      <h1>Quote of the Day</h1>
+      <p class="lead m-4 text-light">
+        Press the button below to recieve a random quote!
+      </p>
+      <button onclick="getQuote()" class="btn btn-lg btn-danger">
+        New Quote
+      </button>
+      <div
+        class="quote text-center m-5 text-light text-capitalize border-secondary"
+        id="quote"
+      ></div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
